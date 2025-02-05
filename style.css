@@ -1,0 +1,442 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    height: 70px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+li a {
+    color: grey;
+    font-family: Courier Std,sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+li a:hover {
+    color: blueviolet;
+}
+#home-image {
+    background-image: url('/assets/image13.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.content-home-image {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+.content-home-image h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.content-home-image p {
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    font-family: Inter,sans-serif;
+    color: white;
+    gap: 20px;
+    margin-top: 50px;
+}
+.buttons a {
+    color: white;
+    text-decoration: none;
+}
+.paket-kelas {
+    background-color: rgb(98, 218, 218);
+    width: 160px;
+    padding: 15px 8px 15px 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Inter,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.7s;
+}
+.paket-kelas:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: rgb(47, 132, 132);
+}
+.kontak {
+        background-color: rgb(98, 218, 218);
+        width: 120px;
+        padding: 15px 8px 15px 8px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-family: Inter,sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        transition: 0.7s;
+}
+.kontak:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: rgb(47, 132, 132);
+}
+#sponsor-page {
+    background-color: rgb(23, 23, 49);
+    height: 300px;
+}
+#sponsor-page h1 {
+    color: white;
+    font-family: Inter,sans-serif;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.sponsor-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 60px;
+}
+.container-cakap {
+    background-color: white;
+    border-radius: 6px;
+    padding: 17px 25px 17px 25px;
+}   
+.cakap-image {
+    height: 70px;
+}
+.dicoding-image {
+    height: 70px;
+}
+.container-dicoding {
+    background-color: white;
+    border-radius: 6px;
+    padding: 17px 25px 17px 25px;
+}  
+.about-us-content-flex {
+    display: flex;
+}
+#about-us {
+    margin-top: 220px;
+}
+.content-flex-1 {
+    margin-left: 100px;
+}
+.content-flex-1  h1 {
+    font-size: 30px;
+    font-family:Courier Std,sans-serif;
+}
+.content-flex-1 p{
+    font-family: Courier Std,sans-serif;
+    margin-top: 30px;
+}
+.flex-box-1-2 {
+    display: flex;
+    margin-top: 60px;
+    gap: 28px;
+}
+.box {
+    background-color: rgb(23, 23, 49);
+    width: 280px;
+    height: 180px;
+    border-radius: 15px;
+}
+.box-image {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 120px;
+
+}
+.content-box h1{
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 30px;
+}
+.flex-box-3-4 {
+    display: flex;
+    margin-top: 20px;
+    gap: 28px;
+}
+.image-about-us {
+    width: 520px;
+    height: 650px;
+    margin-left: 50px;
+}
+#ruangan {
+    margin-top: 200px;
+    background-color: rgb(85, 208, 208);
+    height: 1150px;
+}
+#ruangan h1 {
+    font-family: Courier Std,sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 130px;
+}
+.content-flex-1-ruangan {
+    display: flex;
+    margin-left: 35px;
+    gap: 20px;
+    margin-top: 60px;
+}
+.box-ruangan {
+    background-color: white;
+    width: 387px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.box-ruangan p {
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: Inter,sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+     padding-bottom:30px;
+}
+.image-box-ruangan {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.box-ruangan:hover {
+    background-color: rgb(109, 1, 172);
+    transition: 0.2s;
+}
+.content-flex-2-ruangan {
+    display: flex;
+    margin-left: 35px;
+    gap: 20px;
+    margin-top: 20px;
+}
+#harga {
+    background-color: rgb(19, 19, 57);
+    height: 900px;
+}
+#harga h1 {
+    font-family: Courier Std,sans-serif;
+text-align: center;
+font-size: 40px;
+padding-top: 130px;
+color: white;
+}
+.content-flex-pembelajaran {
+    display: flex;
+    color: black;
+    margin-left: 50px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.box-pembelajaran {
+    width: 380px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+}
+.title-box {
+    font-weight: bold;
+font-size: 45px;
+    font-family: Inter,sans-serif;
+    margin-top: 35px;
+}
+.slash {
+    font-family: Inter,sans-serif;
+    font-size: 24px;
+}
+.subtitle {
+    font-family: Inter,sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.offer-1 {
+    margin-top: 60px;
+    font-family: Inter,sans-serif;
+    font-size: 20px;
+}
+.offer {
+    margin-top: 30px;
+    font-family: Inter,sans-serif;
+    font-size: 20px;
+}
+.sewa {
+        background-color: rgb(98, 218, 218);
+        width: 200px;
+        padding: 15px 8px 15px 8px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-family: Inter,sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        transition: 0.2s;
+        margin-top: 40px;
+        margin-bottom: 30px;
+}
+.sewa:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgb(47, 132, 132);
+}
+#galeri {
+    margin-top: 150px;
+}
+#galeri h1 {
+    font-family: Courier Std,sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.content-flex-1-galeri {
+    display: flex;
+    margin-left: 35px;
+    gap: 20px;
+    margin-top: 40px;
+}
+.content-flex-2-galeri {
+    display: flex;
+    margin-left: 35px;
+    gap: 20px;
+    margin-top: 20px;
+}
+#to-paket-kelas {
+    background-color: rgb(23, 23, 49);
+    margin-top: 150px;
+}
+#to-paket-kelas h1 {
+    font-family: Inter,sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+}
+.paket-kelas-button {
+    background-color: rgb(98, 218, 218);
+    width: 150px;
+    padding: 15px 8px 15px 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Inter,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.2s;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 550px;
+}
+.paket-kelas-button a {
+    color: white;
+    text-decoration: none;
+}
+.paket-kelas-button:hover {
+    cursor: pointer;
+}
+#form {
+    background-color: rgb(98, 218, 218);
+    height:870px;
+}
+.content-flex-form {
+    display: flex;
+    padding-top: 200px;
+    margin-left: 100px;
+}
+.content-flex-1-form {
+    background-color: white;
+    width:570px;
+    padding-left: 25px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.content-flex-1-form  h1 {
+    font-size: 30px;
+    font-family: Courier Std,sans-serif;
+    margin-top: 30px;
+}
+.email {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+input::placeholder {
+    padding-left: 15px;
+}
+.nama {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.pesan {
+    width: 500px;
+    height: 150px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.kirim-pesan {
+    background-color: rgb(98, 218, 218);
+    width: 150px;
+    padding: 15px 8px 15px 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Inter,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.2s;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.pesan p {
+    color: gray;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.kirim-pesan:hover {
+    transition: 0.2s;
+    background-color: rgb(47, 132, 132);
+}
+.image-form {
+    height: 570px;
+}
+.logo {
+    width: 30vw;
+    height: 12vh;
+}
+footer {
+    background-color: rgb(36, 36, 83);
+    display: flex;
+    height: 40vh;
+}
+.flex-box-footer {
+    display: flex;
+}
+.title-menu{
+    display: flex;
+}
